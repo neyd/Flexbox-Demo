@@ -1,0 +1,46 @@
+@media screen and (min-width: 30em){
+     .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+         min-width: 1em;
+         margin-top: 100;
+    }
+    .cards-nav img {
+        width: 100%;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;    
+        padding: 0;
+        min-width: 2em;
+    }
+    .card-content {
+        font-family: Trebuchet MS;
+        font-size: 17px;
+        height: 350px;
+        padding: 20px;
+        color: grey;
+    }
+    .card {
+        background-color: D1D1D1;
+        border-radius: 5px;
+        min-width: 350px;
+        width: calc(33% - 2em);
+    }
+    .card-name {
+        font-size: 20;
+        font-weight: 800;
+        color: 818181;
+        margin-bottom: 1em;
+    } 
+    
+   
+}
+
+
+
+
+
+
+
+
+

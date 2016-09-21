@@ -1,0 +1,49 @@
+@media screen and (min-width: 30em){
+    
+    .nav-mixed {
+         display: flex;
+         background: hsl(0,0%,15%);
+         flex-wrap: wrap;
+         justify-content: space-between;
+         height: 44px;
+         position: relative;
+    }
+    .nav-mixed ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background-color: hsl(0,0%,15%);
+    }
+    
+    .nav-mixed li:hover {
+        background-color: 8C8181;
+    }
+
+	.multi-level-nav li {
+        flex: 0 1 auto;
+        padding: 10 3;
+        width: 5em;
+        text-align: center;
+	}
+    .social-menu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        min-width: 1em;
+    }
+    
+    .social-menu li {
+        height: 100%;
+        width: 1em;
+        padding: 0 6;
+    }
+    .social-menu i {
+        margin-top: 8px;
+    }
+    .social-menu li:hover {
+        background-color: 8C8181; 
+    }
+    .menu-section {
+        display: block;
+    }
+}
