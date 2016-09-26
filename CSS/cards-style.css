@@ -4,7 +4,6 @@
         flex-wrap: wrap;
         justify-content: space-between;
          min-width: 1em;
-         margin-top: 100;
     }
     .cards-nav img {
         width: 100%;
@@ -16,8 +15,8 @@
     .card-content {
         font-family: Trebuchet MS;
         font-size: 17px;
-        height: 350px;
-        padding: 20px;
+        height: 350px;  
+        padding: 1.4em;
         color: grey;
     }
     .card {
@@ -36,6 +35,45 @@
    
 }
 
+@media screen and (min-width: 40em) {
+    .cards {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+        -webkit-justify-content: space-between;
+                justify-content: space-between;
+        margin-top: -1em;
+    }
+
+    .card {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex: 0 1 calc(50% - .5em);
+            -ms-flex: 0 1 calc(50% - .5em);
+                flex: 0 1 calc(50% - .5em);
+        margin-bottom: 1em;
+        margin-top: 1em;
+    }
+}
+
+
+@media screen and (min-width: 60em) {
+    .cards {
+        margin-top: inherit;
+    }
+    
+    .card {
+        -webkit-flex: 0 1 calc(33% - 1em);
+            -ms-flex: 0 1 calc(33% - 1em);
+                flex: 0 1 calc(33% - 1em);
+        margin-bottom: 2em;
+        margin-top: 1em;
+    }
+}
 
 
 

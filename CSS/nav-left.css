@@ -1,0 +1,20 @@
+.nav-left {  
+    background-color: lightgrey;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    font-family: Trebuchet MS;
+    height: 20em;
+    border: 1px solid white;
+}
+.nav-left li {
+    padding: 1em;
+    text-align: center;   
+}
+.nav-levt li:hover {
+    background-color: transparent;
+}

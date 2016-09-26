@@ -6,6 +6,11 @@
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     </head>
     <body>
+        <div class="buttons" >
+            <button id="leftbutton"><i class="fa fa-hand-o-left"></i></button>
+            <button id="rightbutton"><i class="fa fa-hand-o-right"></i></button>
+            <button id="show"><i class="fa fa-align-justify"></i></button>
+        </div>
         <header class="main-header">
             <h1>Flexbox Demo</h1>
         </header>
@@ -13,9 +18,10 @@
                 <div class="nav-mixed">
                     <nav id="multi-level-nav" class="multi-level-nav" role="navigation">
                         <ul>
-                            <li><a href="#">Home</a></li>
+                            <li id="home"><a href="#">Home</a>
+                            </li>
                             <li>
-                                <a href="#">Food</a>
+                                <a href="#">Main</a>
                             </li>
                             <li>
                                 <a href="#">Classes</a>
@@ -37,7 +43,7 @@
                     </nav>
                 </div>
             </section>
-    <div class="centered">
+    <div class="centered" id="centered">
         <nav class="cards-nav" >
             <section class="cards">
                 <article class="card">
@@ -77,6 +83,19 @@
                 </article>
             </section>
         </nav>
+        <div class="nav-left" id="left">
+                <li>
+                            <a href="#">Main</a>
+                </li>
+                            <li>
+                                <a href="#">Classes</a>
+                            </li>
+                            <li><a href="#">About</a>
+                            </li>
+                            <li><a href="#">Contact</a></li>
+        </div>
     </div>
+    <script type="text/javascript" src="JS/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="JS/script.js"></script>
     </body>
 </html>
