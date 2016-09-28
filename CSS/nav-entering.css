@@ -1,0 +1,76 @@
+.logo-name {
+    color: #e6e6e6;
+    font-size: 180px;
+    font-weight: 800;
+    letter-spacing: -10px;
+    margin-bottom: 0;
+    margin-top: .3em;
+    opacity: 0.5;
+    transition: all 0.3s ease;
+}
+.logo-name:hover {
+    opacity: 2;
+    cursor: default;
+}
+h3 {
+    margin-top: 5px;
+    font-weight: 600;
+}
+.nav-entering {
+    position: absolute;
+    text-align: center;
+    left: 40%;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.login {
+     background-color: #FFFFFF;
+    background-image: none;
+    border: 1px solid #e5e6e7;
+    border-radius: 1px;
+    color: inherit;
+    display: block;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 100%;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.submit-button {
+    background-color: #1ab394;
+    color: #FFFFFF;
+    border: 0;
+    margin-top: 2em;
+    padding: .6em 10em;
+    font-weight: 100;
+    font-family: Trebuchet MS;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    opacity: 0.8;
+}
+.nav-entering .btn-forgot {
+    font-size: 15px;
+    color: #337ab7;
+    margin-top: 20px;
+}
+.submit-button:hover {
+    background-color: #2aa999;
+    opacity: 1;
+}
+.p {
+    font-size: 85%;
+    color: grey;
+    margin-top: 5px;
+    font-family: Trebuchet MS;
+}
+.btn-white {
+    padding: 5px;
+    width: 100%;
+    color: inherit;
+    background: white;
+    border: 1px solid #e7eaec;
+    margin-top: 15px;
+    text-align: center;
+}

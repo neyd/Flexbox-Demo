@@ -18,3 +18,8 @@
 .nav-levt li:hover {
     background-color: transparent;
 }
+
+.hide {
+    flex: 0 0 0;
+    transition: flex .5s ease,padding .5s ease;
+}
