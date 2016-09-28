@@ -69,3 +69,44 @@ a {
     background-color: #eee;
     border: 0;
 }
+.nav-registration {
+        position: absolute;
+        left: 5%;
+        text-align: center;
+        font-size: 14px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+}
+.nav-autorization {
+    position: absolute;
+    left: 1;
+}   
+    label {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .Accept {
+        width:22px;
+        height: 22px;
+        border: 1px solid #1ab394; 
+        margin-top: 10px;
+        margin-right: 10px;
+        text-align: center;
+    }
+    .AcceptLabel {
+        font-size: 14px;
+        color: grey;
+        font-weight: 100;
+        font-family: Trebuchet MS;
+    }
+    .btn-white {
+        padding: 5px;
+        width: 100%;
+        color: inherit;
+        background: white;
+        border: 1px solid #e7eaec;
+        margin-top: 15px;
+        text-align: center;
+    }
